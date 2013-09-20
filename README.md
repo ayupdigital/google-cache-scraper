@@ -28,7 +28,7 @@ The number of seconds to sleep between page crawls
 
 `domain_name = 'http://www.example.com`
 
-The URL to fetch from the Google Cache
+The base level domain name. Will be used to help extract the folder paths from the URL
 
 
 `data_store = 'pages/'`
