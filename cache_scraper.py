@@ -7,7 +7,6 @@ from time import sleep
 # CONFIGURATION
 #
 sleep_time      = 5
-base_url        = "http://webcache.googleusercontent.com/search?q=cache:"
 domain_name     = "http://www.example.com/"
 data_store      = "pages/"
 url_source      = "data.txt"
@@ -15,7 +14,7 @@ url_source      = "data.txt"
 #
 # START of script
 #
-i               = 0
+base_url        = "http://webcache.googleusercontent.com/search?q=cache:"
 url_data        = []
 screen_output   = sys.stdout
 data_output     = StringIO()
